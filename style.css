@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #2C2C54;
+}
+.box{
+    width: 500px;
+    background: #F5D6BA;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 2px 2px 20px 5px rgba(0,0,0,0.5); 
+}
+h1{
+    color: #A40E4C;
+    font-weight: bold;
+    font-size: 36px;
+    padding: 30px 0;
+}
+.content{
+    padding: 0px 30px;
+}
+.input{
+    background: #ACC3A6;
+    box-shadow: 0px 0px 95px -30px rgba(0,0,0,0.15);
+    border-radius: 12px;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+.input label{
+    font-size: 18px;
+    display: block;
+    font-weight: 600;
+    color: #A40E4C;
+    margin-bottom: 10px;
+}
+.input input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #2C2C54;
+    width: 50%;
+    text-align: center;
+    font-size: 28px;
+    font-family: "Nunito", sans-serif;
+}
+.gender{
+    color: #A40E4C;
+    text-align: center;
+    margin-bottom: 20px;
+    background: #ACC3A6;
+    box-shadow: 0px 0px 95px -30px rgba(0,0,0,0.15);
+    border-radius: 12px;
+    padding: 20px 0px;
+}
+.inputW{
+    background: #ACC3A6;
+    box-shadow: 0px 0px 95px -30px rgba(0,0,0,0.15);
+    border-radius: 12px;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+.inputW label{
+    font-size: 18px;
+    display: block;
+    font-weight: 600;
+    color: #A40E4C;
+    margin-bottom: 10px;
+}
+.inputW input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #2C2C54;
+    width: 50%;
+    text-align: center;
+    font-size: 28px;
+    font-family: "Nunito", sans-serif;
+}
+.inputH{
+    background: #ACC3A6;
+    box-shadow: 0px 0px 95px -30px rgba(0,0,0,0.15);
+    border-radius: 12px;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+.inputH label{
+    font-size: 18px;
+    display: block;
+    font-weight: 600;
+    color: #A40E4C;
+    margin-bottom: 10px;
+}
+.inputH input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #2C2C54;
+    width: 50%;
+    text-align: center;
+    font-size: 28px;
+    font-family: "Nunito", sans-serif;
+}
+button.calculate{
+    cursor: pointer;
+    font-family: "Nunito",sans-serif;
+    color: #F5D6BA;
+    background: #2C2C54;
+    font-size: 16px;
+    border-radius: 7px;
+    padding: 12px 0;
+    width: 100%;
+    outline: none;
+    border: none;
+    transition: all 0.5s;
+}
+button.calculate:hover{
+    background: #2C2C54;
+}
+.result{
+    padding: 10px 20px;
+}
+.result p{
+    font-weight: 600;
+    font-size: 22px;
+    color: #A40E4C;
+}
+.result #result{
+    font-size: 36px;
+    font-weight: 900;
+    color: #2C2C54;
+    background: #F5D6BA;
+    display: inline-block;
+    padding: 7px 20px;
+    border-radius: 55px;
+    margin-bottom: 25px;
+}
+.comment{
+    color: #2C2C54;
+    font-weight: 800;
+}
+#comment{
+    display: none;
+    border: dashed 1px;
+    border-radius: 7px;
+    padding: 5px;
+}
