@@ -75,9 +75,6 @@ Contributions are welcome! Please fork this repository and submit a pull request
 
 Enjoy using the BMI Calculator! If you have any questions or suggestions, feel free to open an issue or contact the project maintainer.
 
-### Screenshot
-
-![image](https://github.com/manasvi0109/BMI-calculator/assets/171707742/1e4c9517-5c41-4e79-ab7d-190f94bc9680)
 
 ---
 
